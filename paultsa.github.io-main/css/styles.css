@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+@font-face {
+	font-family: Starjedi;
+	src: url("../fonts/starjedi/Starjedi.ttf");
+}
+
+#index {
+	font-family: Arial;
+    /*font-family: Germania-One, Helvetica, Arial, cursive, sans-serif;*/
+	color: #3C3C3C;
+    background-color: #E4E1D9;
+    background-size: cover;
+}
+
+.logo {
+	padding: 38px 38px;
+}
+
+.introduction {
+	font-size: 22px;
+	font-family: 'Raleway';
+	padding: 22px 38px;
+    max-width: 50%;
+	text-align: left;
+	
+}
+
+.first_pic {
+	float: right;
+	max-width: 20%;
+	overflow: hidden;
+	display: inline-block;
+	display: flex;
+	padding-right: 8%;
+}
+
+.hello {
+	font-size: 30px;
+	font-family: Starjedi;
+	letter-spacing: 3px;
+	padding: 8px 38px;
+	color:#7285df;
+	
+}
+
+.side_header {
+	font-size: 21px;
+	font-family: Starjedi;
+	letter-spacing: 3px;
+	padding: 12px 38px;
+	color:#7285df;
+	
+}
+
+.side_header_secondary {
+	font-size: 21px;
+	font-family: Starjedi;
+	letter-spacing: 3px;
+	padding: 0 38px;
+	color:#3D4360;
+}
+
+.plain_text {
+	font-size: 16px;
+	padding: 0 38px;
+	font-family: 'Raleway';
+	margin-bottom: 22px;
+
+}
+
+.plain_text_list {
+	font-size: 16px;
+	padding: 0 8px;
+	font-family: 'Raleway';
+	margin-bottom: 38px;
+
+}
+
+li {
+	margin-bottom: 20px;
+	font-weight: 500;
+}
+.skill_list {
+	list-style-type: none;
+	margin-bottom: 22px;
+	color:white;
+}
+
+.skills {
+	display: -webkit-box;
+    display: -ms-flexbox;
+
+    -ms-flex-pack: justify;
+	justify-content: space-between;
+	width: 20%;
+	padding: 0 0px;
+	
+}
+
+.list_header {
+	font-weight: 800;
+	text-transform: uppercase;
+	color:#7285df;
+}
+
+.project_text {
+	margin-bottom: 38px;
+	max-width: 50%;
+	display: block;
+}
+
+.showreel_text {
+	max-width: 25%;
+}
+.showreel {
+	display: inline;
+	margin-left: 10%;
+	margin-bottom: 38px;
+}
+.project {
+	margin-left: 38px;
+	margin-bottom: 38px;
+	display: flex;
+}
+
+.mini_project {
+	display: block;
+	width: 100%;
+}
+
+.mini_project_text {
+	width: 100%;
+}
+
+.project_block {
+	display: flex;
+	max-width: 120%;
+}
+
+.project_header {
+	font-size: 16px;
+	padding: 0 38px;
+	font-family: 'Raleway';
+}
+
+.footer {
+	font-size: 12px;
+	padding: 0 10%;
+	font-family: 'Raleway';
+	letter-spacing: 3px;
+	margin-bottom: 18px;
+	display: flex;
+}
+
+.link {
+	text-decoration: underline;
+	color:#7285df;
+}
+span {
+	display: inline-block;
+}
